@@ -137,19 +137,6 @@ body {
     padding: 10px;
 }
 
-.conteudo-institucional {
-    display: flex;
-    flex-direction: column;
-    align-items: center;
-    justify-content: center;
-    gap: 32px;
-    margin-bottom: 80px;
-}
-
-.conteudo-institucional-escrito {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-}
-
 .rodape {
     background: linear-gradient(to bottom, #03305e, #0c447b);
 }
@@ -244,7 +231,7 @@ body {
     border-radius: var(--border-radius);
 }
 
-.formulario-campo-estado-civil{
+.formulario-campo-estado-civil {
     display: flex;
     flex-direction: row;
     align-items: center;
@@ -588,7 +575,7 @@ td {
 
 /*Acervo - instituicionais*/
 
-.conteudo-institucionais{
+.conteudo-institucionais {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -609,13 +596,13 @@ td {
     padding-bottom: 5px;
 }
 
-.conteudo-audios{
+.conteudo-audios {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
 
-.conteudo-audios-lista{
+.conteudo-audios-lista {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -623,14 +610,12 @@ td {
     list-style: none;
 }
 
-.conteudo-audios-lista p{
+.conteudo-audios-lista p {
     padding-top: 20px;
     padding-bottom: 10px;
 }
 
-.conteudo-audios-lista audio{
+.conteudo-audios-lista audio {
     display: block;
     margin: 0 auto;
 }
-
-
